@@ -1,0 +1,34 @@
+.chat-message {
+    /* Put the styles you want to apply to the ListItem component here */
+}
+
+.chat-message-avatar {
+    /* Put the styles you want to apply to the ListItemAvatar component here */
+}
+
+.chat-message-avatar-icon {
+    /* Put the styles you want to apply to the Avatar component here */
+}
+
+.chat-message-text {
+    max-width: 90%;
+    /* Put the other styles you want to apply to the ListItemText component here */
+}
+
+.chat-message-content {
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    /* Put the other styles you want to apply to the message content here */
+}
+
+.chat-message-sender {
+    /* Put the styles you want to apply to the sender Typography component here */
+}
+.chat-message-content {
+    font-size: 18px; /* Adjust to the desired size */
+}
+
+/* ChatMessage.css */
+
+
+/* Rest of your css... */
