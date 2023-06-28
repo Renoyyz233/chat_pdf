@@ -1,0 +1,8 @@
+.app {
+    overflow-y: scroll;
+}
+.react-pdf__Page {
+    margin: 0 !important;
+}
+
+

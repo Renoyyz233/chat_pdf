@@ -1,0 +1,105 @@
+.ChatComponent {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 64px);
+    position: relative;
+}
+
+.ChatComponent__list {
+    overflow-y: auto;
+    max-height: calc(100vh - 64px);
+    flex-grow: 1;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.7) transparent;
+}
+
+.ChatComponent__list::-webkit-scrollbar {
+    width: 10px;
+}
+
+.ChatComponent__list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.ChatComponent__list::-webkit-scrollbar-thumb {
+    background: rgba(155, 155, 155, 0.7);
+}
+.ChatComponent__scrollToBottomButton {
+    width: 50px; /* Adjust as needed */
+}
+
+.ChatComponent__box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    margin-right:2.4em;
+    padding-left: 2.4em; /* adjust as needed */
+    justify-content: space-between;
+    position: relative;
+    width: 95%;
+}
+
+
+
+.ChatComponent__textarea {
+    min-rows: 1;
+    max-rows: 16;
+    resize: vertical;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #000;
+    outline: none;
+    overflow-y: auto;
+    line-height: 1;
+}
+
+.ChatComponent__textarea {
+    min-height: 18px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+
+.ChatComponent__textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+.ChatComponent__textarea::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.ChatComponent__textarea::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.ChatComponent__iconButton {
+
+    right: 64px;
+    bottom: 10px;
+}
+.ChatComponent__textarea {
+    /* rest of the properties... */
+    overflow-y: hidden;
+}
+
+.ChatComponent__textarea.maxRowsReached {
+    overflow-y: auto;
+}
+
+
+
+.ChatComponent__scrollToBottomButton {
+    right: 0.5em; /* adjust as needed */
+    bottom: 0.3em;
+    width: 24px;
+    height: 24px;
+}
+
+

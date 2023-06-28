@@ -1,0 +1,13 @@
+/* ContentList.css */
+.popoverContent {
+    width: 1%;  /* Adjust as needed */
+    height: 1%; /* Adjust as needed */
+    overflow: auto; /* This will add a scrollbar if the content exceeds the specified height */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+    padding: 16px;
+}
